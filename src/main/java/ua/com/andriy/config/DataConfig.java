@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories("ua.com.andriy.repository")
+@EnableJpaRepositories("ua.com.andriy.dao")
 @EnableTransactionManagement
 public class DataConfig {
 

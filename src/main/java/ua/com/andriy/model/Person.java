@@ -23,9 +23,23 @@ public class Person {
     public Person() {
     }
 
-    public Person(String firstName, String lastName, String nameDocument, Long numberDocument) {
+    public Person(String email, String avatar) {
+        this.email = email;
+        this.avatar = avatar;
+    }
+
+    public Person(int idPerson, String firstName, String lastName) {
+        this.idPerson = idPerson;
         this.firstName = firstName;
         this.lastName = lastName;
+    }
+
+    public Person(int idPerson, String firstName, String lastName, String email, String avatar, String nameDocument, Long numberDocument) {
+        this.idPerson = idPerson;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.avatar = avatar;
         this.nameDocument = nameDocument;
         this.numberDocument = numberDocument;
     }
