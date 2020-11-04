@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3cd7da4-f9a3-40d2-8520-b3a6587e4b34" name="Default Changelist" comment="" />
+    <list default="true" id="f3cd7da4-f9a3-40d2-8520-b3a6587e4b34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/addBook.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="310">
               <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
             </state>
           </provider>
@@ -136,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="195">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,13 +209,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebInit.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/style/home.css.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/home.css" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/style/home.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/andriy/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/addPerson.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/style/main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/addBook.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -506,12 +509,12 @@
       <workItem from="1602235566770" duration="2341000" />
       <workItem from="1602489579279" duration="3944000" />
       <workItem from="1603045756160" duration="51300000" />
-      <workItem from="1604070404272" duration="12812000" />
+      <workItem from="1604070404272" duration="14151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135133000" />
+    <option name="totallyTimeSpent" value="136472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -533,7 +536,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41926345" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3243626" />
@@ -821,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/andriy/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -882,8 +875,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/addBook.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="310">
           <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
