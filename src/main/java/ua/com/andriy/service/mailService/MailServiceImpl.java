@@ -21,7 +21,7 @@ public class MailServiceImpl implements MailService {
 
         try {
             helper.setTo(person.getEmail());
-            helper.setText("<h3>hello dear user with email " + person.getEmail() + "</h3>," + "visit our <a href = 'http://google.com'>SITE</a> ", true);
+            helper.setText("<h3>hello dear user with email " + person.getEmail() + "</h3>," + "Don't forget to return the book ", true);
             helper.setFrom("atrundey@gmail.com");
         } catch (MessagingException e) {
             e.printStackTrace();

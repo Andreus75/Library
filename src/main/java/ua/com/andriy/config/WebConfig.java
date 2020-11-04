@@ -28,9 +28,10 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/xxx/**")
-                .addResourceLocations("/static/styles/");
-
+        registry.addResourceHandler("/style/**")
+                .addResourceLocations("/style/");
+        registry.addResourceHandler("/img/**")
+                .addResourceLocations("/img/");
         registry.addResourceHandler("/prefixForAva/**").addResourceLocations("file:" + System.getProperty("user.home") + File.separator + "pictures" + File.separator);
 
     }

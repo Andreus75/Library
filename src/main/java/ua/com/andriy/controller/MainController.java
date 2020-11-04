@@ -2,6 +2,7 @@ package ua.com.andriy.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -28,9 +29,13 @@ public class MainController {
 
 
 
-    @GetMapping("/")
-    public String home() {
-        return "index";
+    @GetMapping("/addPerson")
+    public String addPerson() {
+        return "addPerson";
+    }
+    @GetMapping("/addBook")
+    public String addBook() {
+        return "addBook";
     }
 
     @PostMapping("/savePersonWithSendEmail")
@@ -41,6 +46,17 @@ public class MainController {
         personService.save(person);
 
         mailService.sendEmail(person);
-        return "index";
+        return "redirect:/allPerson";
+    }
+
+    @GetMapping("/allPerson")
+    public String allUsers (Model model) {
+        model.addAttribute("persons", personService.findAll());
+        return "allPerson";
+    }
+
+    @GetMapping("/")
+    public String home1() {
+        return "home";
     }
 }

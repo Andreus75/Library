@@ -23,11 +23,6 @@ public class Person {
     public Person() {
     }
 
-    public Person(String email, String avatar) {
-        this.email = email;
-        this.avatar = avatar;
-    }
-
     public Person(int idPerson, String firstName, String lastName) {
         this.idPerson = idPerson;
         this.firstName = firstName;

@@ -1,0 +1,28 @@
+body{
+    background: silver;
+}
+form{
+    color: brown;
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+.person{
+    text-align: center;
+    width: 100px;
+}
+.allPerson{
+    width: 500px;
+}
+li{
+    background: whitesmoke;
+    height: 30px;
+}
+.button{
+    width: 200px;
+    height: 30px;
+    border-style: solid;
+    margin-left: 10pt;
+
+}
