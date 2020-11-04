@@ -509,12 +509,12 @@
       <workItem from="1602235566770" duration="2341000" />
       <workItem from="1602489579279" duration="3944000" />
       <workItem from="1603045756160" duration="51300000" />
-      <workItem from="1604070404272" duration="14151000" />
+      <workItem from="1604070404272" duration="14383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136472000" />
+    <option name="totallyTimeSpent" value="136704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -536,7 +536,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.41926345" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.60764873" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3243626" />
