@@ -6,38 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3cd7da4-f9a3-40d2-8520-b3a6587e4b34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/service/bookService/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addBook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addPerson.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/personDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/style/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/andriy/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/andriy/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/dao/BookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/andriy/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/andriy/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/service/bookService/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/andriy/service/mailService/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/com/andriy/service/mailService/MailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/allPerson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/allPerson.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/com/andriy/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/com/andriy/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/com/andriy/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/com/andriy/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/com/andriy/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/com/andriy/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/com/andriy/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/com/andriy/service/mailService/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/com/andriy/service/mailService/MailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/service/mailService/MailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/WEB-INF/classes/ua/com/andriy/service/mailService/MailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/pages/allPerson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/pages/allPerson.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/pages/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/library-1.0-SNAPSHOT/static/styles/main.css" beforeDir="false" />
-    </list>
+    <list default="true" id="f3cd7da4-f9a3-40d2-8520-b3a6587e4b34" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,7 +91,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/addBook.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="256">
               <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
             </state>
           </provider>
@@ -537,16 +506,15 @@
       <workItem from="1602235566770" duration="2341000" />
       <workItem from="1602489579279" duration="3944000" />
       <workItem from="1603045756160" duration="51300000" />
-      <workItem from="1604070404272" duration="12239000" />
+      <workItem from="1604070404272" duration="12812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134560000" />
+    <option name="totallyTimeSpent" value="135133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23154363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -558,14 +526,14 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25070822" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25070822" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3243626" />
@@ -914,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/addBook.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="256">
           <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
         </state>
       </provider>
