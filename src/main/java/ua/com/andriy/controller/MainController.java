@@ -29,11 +29,11 @@ public class MainController {
 
 
 
-    @GetMapping("/addPerson")
+    @PostMapping("/addPerson")
     public String addPerson() {
         return "addPerson";
     }
-    @GetMapping("/addBook")
+    @PostMapping("/addBook")
     public String addBook() {
         return "addBook";
     }

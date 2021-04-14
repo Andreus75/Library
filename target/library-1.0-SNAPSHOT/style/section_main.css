@@ -1,0 +1,17 @@
+.main_nav{
+    background: gray;
+    width: 20%;
+    height: 100%;
+}
+.search{
+    margin: 20px;
+    width: 100%;
+}
+h3{
+    margin: 10px;
+}
+.main{
+    background: white;
+    width: 80%;
+    height: 100%;
+}

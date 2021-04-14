@@ -4,6 +4,16 @@
     <title>person details</title>
 </head>
 <body>
+<header>
+    <div class="head">
+        <div class="logo">
+            <img src="img/libraryLogo.png" alt="Logo">
+        </div>
+        <div class="name" style="background: wheat">
+            <h1 style="font-size: 2vw; color: brown">Tryndey Andriy Library</h1>
+        </div>
+    </div>
+</header>
 <h1>Person details</h1>
 <style type="text/css">
     .tg {

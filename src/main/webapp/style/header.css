@@ -1,0 +1,17 @@
+img{
+    margin: 0 40px;
+    width: 100px;
+    height: 100px;
+}
+.article{
+    width: 100%;
+    text-align: center;
+}
+.header_nav{
+    display: flex;
+    margin:30px 200px;
+}
+li{
+    margin: 20px;
+
+}

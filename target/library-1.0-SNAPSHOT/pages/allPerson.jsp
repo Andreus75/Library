@@ -3,9 +3,18 @@
 <html>
 <head>
     <title>Persons</title>
-    <link href="style/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<header>
+    <div class="head">
+        <div class="logo">
+            <img src="img/libraryLogo.png" alt="Logo">
+        </div>
+        <div class="name" style="background: wheat">
+            <h1 style="font-size: 2vw; color: brown">Tryndey Andriy Library</h1>
+        </div>
+    </div>
+</header>
 <h2>List Persons</h2>
 <%--<input type="button" name="addNewPerson" placeholder="" value="Add new person">--%>
 <button name="savePerson" class="button">Add new person</button>
