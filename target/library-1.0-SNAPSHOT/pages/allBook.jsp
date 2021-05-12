@@ -1,8 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Persons</title>
+    <title>allBook</title>
     <link rel="stylesheet"  type="text/css" href="style/main.css">
     <link rel="stylesheet" type="text/css" href="style/header.css">
     <link rel="stylesheet" type="text/css" href="style/footer.css">
@@ -24,26 +25,19 @@
         <li><a href="">Contacts</a></li>
     </ul>
 </header>
-
 <main>
     <div class="add_title">
-        <h2>List Persons</h2>
+        <h2>List Books</h2>
     </div>
-    <button name="savePerson" class="buttonAdd">Add new user</button>
-            <c:forEach items="${persons}" var="person">
-                    <ul class="userInfo">
-                        <img src="${person.avatar}" alt="">
-                        <li>${person.idPerson}. ${person.firstName}  ${person.lastName}  email:  ${person.email}</li>
-                        <form class="form_action" action="deletePerson" method="delete" enctype="multipart/form-data">
-                            <button name="deletePerson" class="button">Delete user</button>
-                        </form>
-                        <form class="form_action" action="personDetails" method="get" enctype="multipart/form-data">
-                            <button name="info" class="button">Information about books</button>
-                        </form>
-                    </ul>
-            </c:forEach>
+    <button name="saveBook" class="buttonAdd">Add new book</button>
+    <c:forEach items="${books}" var="book">
+        <ul class="bookInfo">
+            <li>${book.idBook}. ${book.author} ${book.nameBook}</li>
+            <button name="deleteBook" class="button">Delete book</button>
+            <button name="addBook" class="button">Add book</button>
+        </ul>
+    </c:forEach>
 </main>
-
 <footer>
     <div>
         <h2>LIBRARY</h2>

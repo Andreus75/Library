@@ -7,5 +7,8 @@ import java.util.List;
 
 public interface PersonDAO extends JpaRepository<Person, Integer> {
 
-    List<Person> findAllByEmail(String email);
+//    List<Person> findAllByEmail(String email);
+//    List<Person> findAll();
+//    Person findById(int id);
+//    void deleteById(int id);
 }

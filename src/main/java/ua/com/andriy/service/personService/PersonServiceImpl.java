@@ -20,7 +20,6 @@ public class PersonServiceImpl implements PersonService {
     }
 
     public void save(Person person) {
-        System.out.println("person --- " + person);
         if (person != null) {
             personDAO.save(person);
         }
@@ -29,4 +28,14 @@ public class PersonServiceImpl implements PersonService {
     public List<Person> findAll() {
         return personDAO.findAll();
     }
+
+    public Person findByNameLastname(String firstName, String lastName) {
+
+        return null;
+    }
+
+    public void delete(String firstName, String lastName) {
+
+    }
+
 }

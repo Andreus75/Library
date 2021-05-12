@@ -3,45 +3,66 @@
 <html>
 <head>
     <title>Persons</title>
+    <link rel="stylesheet"  type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" type="text/css" href="style/add_main.css">
 </head>
 <body>
-<header>
-    <div class="head">
-        <div class="logo">
-            <img src="img/libraryLogo.png" alt="Logo">
-        </div>
-        <div class="name" style="background: wheat">
-            <h1 style="font-size: 2vw; color: brown">Tryndey Andriy Library</h1>
-        </div>
+<header class="header">
+    <div class="logo">
+        <img src="img/libraryLogo.png" alt="logo">
     </div>
+    <div class="article">
+        <h1>Andriy Tryndey Library</h1>
+    </div>
+    <ul class="header_nav">
+        <li><a href="">Catalog</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Rules</a></li>
+        <li><a href="">Contacts</a></li>
+    </ul>
 </header>
-<h2>List Persons</h2>
-<%--<input type="button" name="addNewPerson" placeholder="" value="Add new person">--%>
-<button name="savePerson" class="button">Add new person</button>
-<c:forEach items="${persons}" var="person">
-    <div class="allPerson">
-<%--        <table class="tg">--%>
-<%--            <tr>--%>
-<%--                <td width="100">ID</td>--%>
-<%--                <td width="150">FirstName</td>--%>
-<%--                <td width="150">LastName</td>--%>
-<%--                <td width="150">Email</td>--%>
-<%--                <td width="150">Document</td>--%>
-<%--                <td width="150">NumberDocument</td>--%>
-<%--            </tr>--%>
-            <ul>
-                <li>${person.idPerson}. ${person.firstName}  ${person.lastName}</li>
-                <hr>
-<%--                <li>${person.firstName}</li>--%>
-<%--                <li>${person.lastName}</li>--%>
-<%--                <td>${person.email}</td>--%>
-<%--                <td>${person.nameDocument}</td>--%>
-<%--                <td>${person.numberDocument}</td>--%>
-            </ul>
-<%--        </table>--%>
-<%--        <h3>${person.idPerson} ${person.firstName}</h3>--%>
-<%--        <img src="${person.avatar}" alt="">--%>
+
+<main>
+    <div class="add_title">
+        <h2>List Persons</h2>
     </div>
-</c:forEach>
+    <button name="savePerson" class="buttonAdd">Add new user</button>
+            <c:forEach items="${persons}" var="person">
+                    <ul class="userInfo">
+                        <img src="${person.avatar}" alt="">
+                        <li>${person.idPerson}. ${person.firstName}  ${person.lastName}  email:  ${person.email}</li>
+                        <form class="form_action" action="deletePerson" method="delete" enctype="multipart/form-data">
+                            <button name="deletePerson" class="button">Delete user</button>
+                        </form>
+                        <form class="form_action" action="personDetails" method="get" enctype="multipart/form-data">
+                            <button name="info" class="button">Information about books</button>
+                        </form>
+                    </ul>
+            </c:forEach>
+</main>
+
+<footer>
+    <div>
+        <h2>LIBRARY</h2>
+    </div>
+    <div class="footer_info">
+        <ul>
+            <li>phone : 0501111111</li>
+            <li>address : Lviv</li>
+        </ul>
+    </div>
+
+    <div class="div_social">
+        <ul class="social_networks">
+            <li><a href="" class="facebook"><img src="img/Tilda_Icons_26snw_facebook.svg"></a></li>
+            <li><a href="" class="instagram"><img src="img/Tilda_Icons_26snw_instagram.svg"></a></li>
+            <li><a href="" class="mail"><img src="img/Tilda_Icons_26snw_mail.svg"></a></li>
+            <li><a href="" class="telegram"><img src="img/Tilda_Icons_26snw_telegram.svg"></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>

@@ -1,0 +1,27 @@
+.main_title{
+    background: rgb(170, 124, 39);
+    text-align: center;
+}
+.userInfo{
+    display: flex;
+}
+main{
+    background: grey;
+}
+.buttonAdd{
+    background: green;
+    height: 50px;
+    width: 25%;
+    border-radius: 10px
+}
+.userInfo{
+    display: flex;
+}
+.section_add{
+    padding: 20px;
+}
+
+form{
+    width: 60%;
+    text-align: right;
+}

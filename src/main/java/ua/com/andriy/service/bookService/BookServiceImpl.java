@@ -1,11 +1,15 @@
 package ua.com.andriy.service.bookService;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ua.com.andriy.dao.BookDAO;
 import ua.com.andriy.model.Book;
 
 import java.util.List;
 
+@Service
+@Transactional
 public class BookServiceImpl implements BookService {
 
     @Autowired
@@ -26,7 +30,7 @@ public class BookServiceImpl implements BookService {
         bookDAO.delete(idBook);
     }
 
-    public List<Book> bookList() {
+    public List<Book> findAll() {
         List<Book> books = bookDAO.findAll();
         return books;
     }

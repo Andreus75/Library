@@ -73,5 +73,11 @@
         <td>${person.namberDocument}</td>
     </tr>
 </table>
+<form class="form_action" action="addBook" method="put" enctype="multipart/form-data">
+    <button name="addBook" class="button">Add book</button>
+</form>
+<form class="form_action" action="removeBook" method="delete" enctype="multipart/form-data">
+    <button name="removeBook" class="button">Remove book</button>
+</form>
 </body>
 </html>

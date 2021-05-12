@@ -9,4 +9,8 @@ public interface PersonService {
     void save (Person person);
 
     List<Person> findAll();
+
+    Person findByNameLastname(String firstName, String lastName);
+
+    void delete (String firstName, String lastName);
 }

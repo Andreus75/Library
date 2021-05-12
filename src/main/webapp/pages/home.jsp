@@ -47,6 +47,13 @@
 <section class="section_main">
     <nav class="main_nav">
         <div class="search">
+            <select class="books_review">
+                <option>scientific literature</option>
+                <option>historical literature</option>
+                <option>educational literature</option>
+                <option>fiction</option>
+                <option>fantasy</option>
+            </select>
             <form class="search_form" name="fsearch" method="GET" action="">
                 <h3>Name book</h3>
                 <input type="text" name="searchStr" class="search_nav">
@@ -64,7 +71,11 @@
         </div>
     </nav>
     <main class="main">
-        information about book or user
+        <p>Information about new and popular books</p>
+        <hr>
+        <div class="main_content">
+ha-ha
+        </div>
     </main>
 </section>
 
@@ -85,7 +96,7 @@
         <ul class="social_networks">
             <li><a href="" class="facebook"><img src="img/Tilda_Icons_26snw_facebook.svg"></a></li>
             <li><a href="" class="instagram"><img src="img/Tilda_Icons_26snw_instagram.svg"></a></li>
-            <li><a href="" class="mail"><img src="img/Tilda_Icons_26snw_mail.svg"></li>
+            <li><a href="" class="mail"><img src="img/Tilda_Icons_26snw_mail.svg"></a></li>
             <li><a href="" class="telegram"><img src="img/Tilda_Icons_26snw_telegram.svg"></a></li>
         </ul>
     </div>

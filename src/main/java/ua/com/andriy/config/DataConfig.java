@@ -23,7 +23,6 @@ public class DataConfig {
     @Bean
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-//        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/library?useUnicode=true&serverTimezone=UTC&useSSL=true&verifyServerCertificate=false");
         dataSource.setUrl("jdbc:mysql://localhost:3306/library?createDatabaseIfNotExist=true");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUsername("root");

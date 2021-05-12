@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
+import ua.com.andriy.model.Book;
 import ua.com.andriy.model.Person;
+import ua.com.andriy.service.bookService.BookService;
 import ua.com.andriy.service.mailService.MailService;
 import ua.com.andriy.service.personService.PersonService;
 
@@ -16,13 +18,15 @@ import java.io.File;
 import java.io.IOException;
 
 @Controller
-public class MainController {
+public class PersonOperationController {
 
     private final PersonService personService;
     @Autowired
-    public MainController(PersonService personService) {
+    public PersonOperationController(PersonService personService) {
         this.personService = personService;
     }
+
+
 
     @Autowired
     private MailService mailService;
@@ -33,19 +37,15 @@ public class MainController {
     public String addPerson() {
         return "addPerson";
     }
-    @PostMapping("/addBook")
-    public String addBook() {
-        return "addBook";
-    }
+
 
     @PostMapping("/savePersonWithSendEmail")
     public String savePersonWithSendEmail(Person person, @RequestParam("file")MultipartFile file) throws IOException, MessagingException {
-        System.out.println("mainControllerStart, person ----" + person);
         file.transferTo(new File(System.getProperty("user.home") + File.separator + "pictures" + File.separator + file.getOriginalFilename()));
         person.setAvatar("/prefixForAva/" + file.getOriginalFilename());
         personService.save(person);
 
-        mailService.sendEmail(person);
+//        mailService.sendEmail(person);
         return "redirect:/allPerson";
     }
 
@@ -55,8 +55,14 @@ public class MainController {
         return "allPerson";
     }
 
+    @GetMapping("/personDetails")
+    public String userInfo () {
+        return "personDetails";
+    }
+
     @GetMapping("/")
     public String home1() {
         return "home";
     }
+
 }

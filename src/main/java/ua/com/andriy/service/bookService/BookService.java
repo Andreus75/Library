@@ -12,5 +12,5 @@ public interface BookService {
 
     void deleteById (int idBook);
 
-    List<Book> bookList ();
+    List<Book> findAll();
 }
